@@ -20,9 +20,20 @@ body {
 }
 
 .container {
-    width: 80%;
+    display:flex;
+    justify-content: center;
+    width: 100%;
     height: 100rem;
-    padding:5rem;
+    
+        div {
+        background: var(--soft-peach);
+        height: 5rem;
+        max-width: 30rem;
+        font-size: 3rem;
+        border-radius: 2rem;
+
+    }
+
 }
 
 h1{

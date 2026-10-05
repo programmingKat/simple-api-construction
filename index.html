@@ -9,8 +9,8 @@
 </head>
 
 <body>
+    <h1>Daylight! Hours! </h1>
     <div class="container">
-        <h1>Daylight! Hours! </h1>
         <div class="input-form">
             <input type="text" placeholder="Enter location or  address" id="simple_q">
             <!-- <input type="text" placeholder="Street Address">
@@ -23,17 +23,19 @@
                 <option value="canada">Canada</option>
             </select> -->
             <button>Submit</button>
+
+            <div class="results">
+                <div>
+                    <p id="location"></p>
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                </div>
+            </div>
         </div>
 
-    <div class="results">
-        <div>        
-            <p id="location"></p>
-            <p id="sunrise"></p>
-            <p id="sunset"></p>
-        </div>
-    </div>
 
-    <script src="js/main.js"></script>
+
+        <script src="js/main.js"></script>
 </body>
 
 </html>
