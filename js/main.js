@@ -15,8 +15,6 @@ async function getLocation() {
         .then(data => {
             console.log(data)
             return data.results[0].location
-
-
         })
         .catch(err => {
             console.log(`error:${err}`)
